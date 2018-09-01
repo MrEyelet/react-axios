@@ -79,6 +79,11 @@ button {
   border: none;
 }
 
-span{
+span {
   color: #2dc72b
+}
+
+label {
+  font-size: 10px;
+  text-align: left;
 }

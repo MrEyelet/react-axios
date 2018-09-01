@@ -1,16 +1,14 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class UserForm extends Component {
-	render(){
-		return(
-			<div className="User-form">
-				<form>
-					<input type="text" name="username"/>
-					<button>Submit</button>
-				</form>
-			</div>
-		);
-	}
+const UserForm = (props) => {
+	return(
+		<div className="User-form">
+			<form onSubmit={props.getUser}>
+				<input type="text" name="username"/>
+				<button>Submit</button>
+			</form>
+		</div>
+	);
 }
 
 export default UserForm;

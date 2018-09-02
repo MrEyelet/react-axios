@@ -79,6 +79,10 @@ button {
   border: none;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 span {
   color: #2dc72b
 }
